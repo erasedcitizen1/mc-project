@@ -3,8 +3,8 @@
 Simulates the results of the English Premier League for a number of seasons forward (specified by the user).
 ## Installation (Pre-requisites)
 This project uses the Anaconda distribution of Python so the user must first install Anaconda prior to running any scripts.
-Visit https://docs.anaconda.com/anaconda/install/index.html for instructions to install the latest version of Anaconda. Anaconda is supported on 
-Windows, macOS and Linux with separate installation instructions available for each of these operating systems. The user should download the latest version of Python 3
+Please visit https://docs.anaconda.com/anaconda/install/index.html for instructions to install the latest version of Anaconda. Anaconda is supported on 
+Windows, macOS and Linux with separate installation instructions available for each of these operating systems. The user should select the latest version of Python 3
 corresponding to their operating system.
 
 The script for this project was written using the Jupyter Notebook editor on Anaconda. This is a specific IDE (Integrated Development Editor) that comes with the Anaconda distribution. Note that files written in
@@ -18,14 +18,10 @@ Once Jupyter Notebook is up and running, the user is ready to run the program.
 ## Running the program
 The entire program is executed within *'MC_project.ipynb'*, the only Python script on the repository. Alongside *'MC_project.ipynb'* are three additional files: *'mc_res_backtest.pickle'*, *'mc_res_oneseason.pickle'* and *'mc_res_10seasons.pickle'*. These files contain the simulations (data) for the three Monte Carlo simulations that were run as part of the project and were the basis for the analysis contained within the report. The main script *'MC_project.ipynb'* will load these data into Python which the user can then analyse. **Therefore, the user needs to download *'MC_project.ipynb'* plus the three data files and ensure all files are in the same directory for the program to run properly**.
 
-For those not familiar with using Jupyter Notebook, please visit https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/execute.html.
-
-The entire program is executed in the file labelled 'main.ipynb' so the user should open this file with Jupyter Notebook. One of the nice advantages of Jupyter is that its format allows for easy reproducibility of results
-with pieces of code executed in separate cells. Jupyter also supports Markdown, a lightweight language to format text. We use both of these features so that the user can step through the code sequentially
-and reproduce any results with relative ease.
+Using Jupyter Notebook, the user should load *'MC_project.ipynb'* from where they have this file saved in their directory. This Jupyter file is setup such that the user execute each cell sequentially rather than executing the entire program in one go. For more tips on how to navigate Jupyter Notebook, please visit https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/execute.html.
 
 
-Instructions on how the user can configure the settings for the simulation are detailed in 'main.ipynb' while all relevant documentation is also included in this file.
+Instructions on how the user can configure the settings for the simulation are detailed in *'MC_project.ipynb'* while all relevant documentation is also included in this file. One last point to note is that this Monte Carlo simulation is very computationally intensive with one iteration taking 30 seconds to complete. The user should bear this mind when selecting the number of iterations to run the simulation.
 
 
 
