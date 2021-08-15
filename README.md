@@ -16,7 +16,7 @@ Note that the user need not install any additional Python packages as all packag
 Once Jupyter Notebook is up and running, the user is ready to run the program.
 
 ## Running the program
-The entire program is executed within 'main.ipynb', the only Python script on the repository. Alongside 'main.ipynb' are three additional files: 'mc_res_backtest', 'mc_res_oneseason' and 'mc_res_10seasons'. These files contain the simulations (data) for the three Monte Carlo simulations that were run as part of the project and were the basis for the analysis contained within the report. The main script 'main.ipynb' will load these data into Python which the user can then analyse. **Therefore, the user needs to download 'main.ipynb' plus the three data files and ensure all files are in the same directory for the program to run properly**.
+The entire program is executed within 'main.ipynb', the only Python script on the repository. Alongside 'main.ipynb' are three additional files: 'mc_res_backtest', *'mc_res_oneseason'* and 'mc_res_10seasons'. These files contain the simulations (data) for the three Monte Carlo simulations that were run as part of the project and were the basis for the analysis contained within the report. The main script 'main.ipynb' will load these data into Python which the user can then analyse. **Therefore, the user needs to download 'main.ipynb' plus the three data files and ensure all files are in the same directory for the program to run properly**.
 
 For those not familiar with using Jupyter Notebook, please visit https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/execute.html.
 
